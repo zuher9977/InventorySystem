@@ -1,0 +1,67 @@
+<form #frm="ngForm"> 
+<div class="container cont" style="margin-top:150px">
+    <div class="thumbnail">
+        <div class="row" style="padding-top:20px;margin-bottom: -10px;">
+            <div class="col-xs-offset-4 col-xs-6">
+                <div class="form-group">
+                    <label style="font-size: 25px;color:white;" class="">Login Page</label>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row" style="padding-top:20px;">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" name="txtUsername" ngModel  />
+                    <span asp-validation-for="Name"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+
+                    <input class="form-control" placeholder="*********" name="txtcpass" ngModel/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+                    <input class="form-check-input" type="checkbox"  name="isSelected" ngModel/> Remember Me
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+            <div class="col-xs-offset-2 col-xs-10">
+                <div class="form-group">
+                    <input type="button" value="Login" class="btn btn-primary" (click)="login()" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+                    <div class="text-center">
+                        <p style="color:white">Not a member? <a href="#!">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" *ngIf="showError">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="alert alert-danger" role="alert">
+                    Error: "The email address or password is incorrect.
+                  </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+</form>

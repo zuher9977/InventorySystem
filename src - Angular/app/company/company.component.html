@@ -1,0 +1,82 @@
+<form #frm="ngForm">
+    <div class="container" style="margin-top:150px">
+        <div class="thumbnail">
+            <div class="row" style="padding-top:20px;margin-bottom: -10px;">
+                <div class="col-xs-6" style="margin-left: 20px;">
+                    <div class="form-group">
+                        <label style="font-size: 25px;color:white;" class="">Manage Company</label>
+                    </div>
+                </div>
+            </div>
+            <hr />
+    
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-xs-1" style="margin-left: 60px;"></div>
+                <div class="col-xs-3">
+                    <input type="hidden" class="form-control" ngModel name="txtid">
+                    <input type="text" class="form-control" ngModel name="txtname">
+                    <label>Company Name</label>
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-2">
+                    
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" ngModel name="txtchrg">
+                    <label>Vat Charge</label>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-xs-1" style="margin-left: 60px;"></div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" ngModel name="txtaddress">
+                    <label>Address</label>
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-2">
+                    
+                </div>
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" ngModel name="txtphone">
+                    <label>Phone</label>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-xs-1" style="margin-left: 60px;"></div>
+                <div class="col-xs-3">
+                    <select class="form-control" ngModel name="txtcountry">
+                        <option *ngFor="let item of countries" value="{{item.id}}" >{{item.name}}</option>
+                    </select>
+                    <label>Country</label>
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-2">
+                    
+                </div>
+                <div class="col-xs-3">
+                    <select class="form-control" ngModel name="txtcurrn">
+                        <option *ngFor="let item of curren" value="{{item.id}}" >{{item.nme}}</option>
+                    </select>
+                    <label>Currency</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 10px;margin-bottom: 20px;">
+                <div class="col-xs-6" style="margin-left: 60px;"></div>
+                <div class="col-xs-2">
+                    <input type="button" value="Add Company" class="btn btn-primary form-control" (click)="add()" >
+                </div>
+                <div class="col-xs-2">
+                    <input type="button" value="Save Changes" class="btn btn-primary form-control" (click)="update()" >
+                </div>
+            </div>
+            <div class="row" *ngIf="showSUC">
+                <div class="col-xs-offset-2 col-xs-8">
+                    <div class="alert alert-success" role="alert">
+                        Done!
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>

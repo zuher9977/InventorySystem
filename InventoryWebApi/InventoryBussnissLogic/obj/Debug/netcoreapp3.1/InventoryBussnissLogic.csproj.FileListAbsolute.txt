@@ -1,0 +1,16 @@
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.AssemblyInfoInputs.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.AssemblyInfo.cs
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryBussnissLogic.deps.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryBussnissLogic.runtimeconfig.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryBussnissLogic.runtimeconfig.dev.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryBussnissLogic.dll
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryBussnissLogic.pdb
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryDataAccess.dll
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\bin\Debug\netcoreapp3.1\InventoryDataAccess.pdb
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.csproj.AssemblyReference.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.csproj.CopyComplete
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.dll
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.pdb
+C:\inetpub\wwwroot\InventoryWebApi\InventoryBussnissLogic\obj\Debug\netcoreapp3.1\InventoryBussnissLogic.genruntimeconfig.cache

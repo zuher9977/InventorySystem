@@ -1,0 +1,47 @@
+<div class="container" style="margin-top:150px">
+    <div class="thumbnail">
+        <div class="row" style="padding-top:20px;margin-bottom: -10px;">
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label style="font-size: 25px;color:white;" class="">Manage Currency</label>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-1">
+                <label>Name</label>
+            </div>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" #name>
+            </div>
+            <div class="col-xs-1">
+                <input type="button" class="form-control" value="add" (click)="add()">
+            </div>
+        </div>
+        <div class="row" style="margin-top:30px;">
+            <div class="col-xs-12">
+                <table id="main-table" class="table exotic-table">
+                    <thead>
+                        <tr class="text-center">
+                            <th>#</th>
+                            <th>Country Name</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor="let item of curr,let i=index">
+                            <td>
+                                {{i+1}}
+                            </td>
+                            <td>
+                                {{item.nme}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

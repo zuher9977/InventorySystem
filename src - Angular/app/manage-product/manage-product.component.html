@@ -1,0 +1,55 @@
+
+
+<form #frm="ngForm">
+    <div class="container" style="margin-top:150px">
+        <div class="thumbnail">
+            <div class="row" style="padding-top:20px;margin-bottom: -10px;">
+                <div class="col-xs-6">
+                    <div class="form-group">
+                        <label style="font-size: 25px;color:white;" class="">Manage Product</label>
+                    </div>
+                </div>
+            </div>
+            <hr />    
+            <div class="row" style="margin-top:30px;">
+                <div class="col-xs-12">
+                    <table id="main-table" class="table exotic-table">
+                        <thead>
+                            <tr class="text-center">
+                                <th>img</th>
+                                <th>SKU</th>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Qty</th>
+                                <th>Store</th>
+                                <th>Availability</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr *ngFor="let item of product">
+                                <td>
+                                    <img src="{{item.imgPath}}" style="width: 100px; height: 100px;">
+                                </td>
+                                <td>{{item.sku}}</td>
+                                <td>{{item.name}}</td>
+                                <td>{{item.price}}</td>
+                                <td>{{item.qty}}</td>
+                                <td>{{item.store.name}}</td>
+                                <td>{{item.avi}}</td>
+                                <td>
+                                        <a (click)="Edite(item.id)"><i data-toggle="modal" data-target="#exampleModalCenter" class="editbtn glyphicon glyphicon-edit"></i></a>
+                                        <span></span>
+                                        <a (click)="Delete(item.id)"><i  class="removebtn glyphicon glyphicon-remove"></i></a>
+                                </td>
+                            </tr>
+      
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    
+    
+        </div>
+    </div>
+    </form>

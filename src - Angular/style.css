@@ -1,0 +1,279 @@
+body {
+    background: #192226;
+    color: #f7f7f7 !important;
+    background-image: url("src/assets/d6iuhnh-22a84a73-8669-48aa-aaac-47e886276b7c.jpg");  
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #21343a!important;;
+}
+hr{
+    border-color: #319999 !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #319999 !important;
+    border-color: #2bbf8f !important;
+}
+
+.mainInfo {
+    background-color: #fff;
+    border: .01rem round #e0e1ed;
+    border-radius: 20px;
+    color: #585CA1;
+    width: 100%;
+    height: 5em;
+    box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.75);
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    position: relative;
+    left: 20%;
+    width: 9em;
+    height: 9em;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.65);
+}
+
+    .circle img {
+        position: absolute;
+        max-width: 85%;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+    }
+
+.paraDivLeft,
+.paraDivRight {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+}
+
+.paraDivLeft {
+    left: 20px;
+    top: 40px;
+    text-align: left;
+}
+
+.paraDivRight {
+    right: 20px;
+    top: 50px;
+    text-align: right;
+}
+
+.paraDivLeft h6 {
+    font-size: 14pt;
+    margin: 0;
+}
+
+.paraDivLeft p,
+.paraDivRight p {
+    line-height: 1em;
+    font-size: 12pt;
+    margin: 0;
+}
+
+label {
+    color: #2bd2e3;;
+}
+
+tr th {
+    color: #FFF;
+    background-color: #1b2832;
+}
+
+tr td {
+    color: black;
+}
+
+.navbar-inverse {
+    background: #222B31 !important;
+    border-bottom: 4px solid #6ba0b9 !important;
+}
+
+.navbar-brand {
+    font: 12px Lato !important;
+    text-transform: uppercase;
+    color: #FFF !important;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+
+
+
+
+a:hover {
+    color: #FFF !important;
+}
+
+li {
+    position: relative;
+}
+
+
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-collapse {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active {
+    background: transparent !important;
+}
+
+.icon-bar {
+    background: #a3bfc6 !important;
+}
+
+.hover {
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #6ba0b9 !important;
+    z-index: 0;
+    opacity: 0;
+}
+
+
+@media (max-width: 480px) {
+    .nav {
+        padding-bottom: 20px;
+    }
+}
+.thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    transition: 0.3s;
+    min-width: 40%;
+    border-radius: 5px;
+    background-color: #222B31 !important;
+    border-color: #6ba0b9;
+}
+
+.thumbnail-description {
+    min-height: 40px;
+    color: wheat;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+h4 {
+    color: #2bd2e3;;
+}
+
+.mybottom {
+    background-color: #1b2832;
+    height: 50px;
+    width: 100%;
+    border-color: #700f1e;
+    border-radius: 10px;
+    border: 3px solid #700f1e;
+    text-align: center;
+
+}
+
+.centerspan {
+    background: #222;
+    color: #fff;
+    display: inline-block;
+    /* float:left;  remove */
+    margin: 10px 10px 0 0;
+    padding: 5px 10px
+}
+
+.dropdown-menu li a:hover{
+    color:black!important;
+}
+
+.cont{
+    width: 60%!important;
+}
+tbody tr td{
+    color:white;
+}
+
+.table>thead>tr>th{border-bottom: none;}
+.exotic-table{
+    color:#fff;
+    background: #191919;
+    text-align: center;
+    border: none;
+}
+.exotic-table thead tr{
+    border: 2px #333 outset;
+    text-align: center;
+}
+.exotic-table thead>tr>th{
+    text-align: center;
+}
+.exotic-table tbody{
+    border:2px outset #333;
+    border-top:none
+}
+
+.exotic-table tbody tr{
+    background: #222;
+}
+.exotic-table tbody tr:hover{
+    box-shadow:0 0 20px #000;
+    background:#1a1a1a;
+}
+.exotic-table tbody tr td{
+    border-bottom:2px outset #333;
+}
+.table-responsive{
+    border:none;
+}
+.popover {
+     color:#000
+  }
+a.td-price{
+    color:#fff;
+    border-bottom:1px dotted #ccc
+}
+
+.green{color:#47e900}
+.red{color:#f00808}
+.paleyellow{color:#f8d97c}
+.purple{color:#b461ff}
+.turquoise{color:#52edff}
+
+.editbtn{
+    color:blueviolet;
+    padding: 8px;
+    display:-moz-box;
+
+}
+
+.removebtn{
+    color:rgb(218, 76, 51);
+    padding: 8px;
+    display:-moz-box;
+
+}

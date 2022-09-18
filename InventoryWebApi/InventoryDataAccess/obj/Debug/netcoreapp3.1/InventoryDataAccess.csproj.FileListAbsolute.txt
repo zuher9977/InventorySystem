@@ -1,0 +1,13 @@
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.AssemblyInfoInputs.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.AssemblyInfo.cs
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\bin\Debug\netcoreapp3.1\InventoryDataAccess.deps.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\bin\Debug\netcoreapp3.1\InventoryDataAccess.runtimeconfig.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\bin\Debug\netcoreapp3.1\InventoryDataAccess.runtimeconfig.dev.json
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\bin\Debug\netcoreapp3.1\InventoryDataAccess.dll
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\bin\Debug\netcoreapp3.1\InventoryDataAccess.pdb
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.dll
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.pdb
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.genruntimeconfig.cache
+C:\inetpub\wwwroot\InventoryWebApi\InventoryDataAccess\obj\Debug\netcoreapp3.1\InventoryDataAccess.csproj.AssemblyReference.cache

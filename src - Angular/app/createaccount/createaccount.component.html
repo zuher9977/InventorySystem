@@ -1,0 +1,77 @@
+
+<form #frm="ngForm">
+<div class="container cont" style="margin-top:150px">
+    <div class="thumbnail">
+        <div class="row" style="padding-top:20px;margin-bottom: -10px;">
+            <div class="col-xs-offset-4 col-xs-6">
+                <div class="form-group">
+                    <label style="font-size: 25px;color:white;" class="">Create Account</label>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="row" style="padding-top:20px;">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="txtUsername" ngModel  />
+                    <input type="hidden" asp-for="Id" />
+                    <span asp-validation-for="Name"></span>
+                    <label class="form-label" for="form2Example2">Username</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8">
+                <div class="form-group">
+                    <input type="text" asp-for="Email" class="form-control" placeholder="example@example.com" name="txtemail" ngModel />
+                    <span asp-validation-for="Email"></span>
+                    <label class="form-label" for="form2Example2">Email</label>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8">
+                    <div class="form-group">
+
+                        <input asp-for="Password" class="form-control" placeholder="*********" name="txtpass" ngModel />
+                        <span asp-validation-for="Password"></span>
+                        <label class="form-label" for="form2Example2">Password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8">
+                    <div class="form-group">
+                        <input asp-for="ConfirmPassword" class="form-control" placeholder="*********" name="txtconfpass" ngModel />
+                        <label class="form-label" for="form2Example2">Confirm-Password</label>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row" style="margin-top:10px;">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <div class="form-group">
+                            <input type="submit" value="create account" class="btn btn-primary" asp-action="CreateAccount" (click)="create()" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" *ngIf="showError">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <div class="alert alert-danger" role="alert">
+                            Plaese check the data and try again.
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row" *ngIf="showSUC">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <div class="alert alert-success" role="alert">
+                            Done!
+                          </div>
+                    </div>
+                </div>
+ 
+        </div>
+</div>
+</form>
